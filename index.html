@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="iso-8859-1" ?> 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" 
-"http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd" > 
-<html xmlns="http://www.w3.org/1999/xhtml"  
-> 
-<head><title>Entropy Coding</title> 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
-<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
-<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
-<!-- xhtml,mathml,html --> 
-<meta name="src" content="index.tex" /> 
-<link rel="stylesheet" type="text/css" href="index.css" /> 
-</head><body 
->
-   <div class="maketitle">
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head> <title>Entropy Coding</title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='index.css' rel='stylesheet' type='text/css' /> 
+<meta content='index.tex' name='src' /> 
+<script>window.MathJax = { tex: { tags: "ams", }, }; </script> 
+ <script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
+</head><body>
+   <div class='maketitle'>
                                                                   
 
                                                                   
@@ -20,83 +17,46 @@
 
                                                                   
 
-<h2 class="titleHead">Entropy Coding</h2>
- <div class="author" ><span 
-class="ecrm-1200">Vicente Gonz</span><span 
-class="ecrm-1200">&#x00E1;</span><span 
-class="ecrm-1200">lez Ruiz</span></div><br />
-<div class="date" ><span 
-class="ecrm-1200">December 5, 2022</span></div>
+<h2 class='titleHead'>Entropy Coding</h2>
+ <div class='author'><span class='ecrm-1200'>Vicente González Ruiz</span></div><br />
+<div class='date'><span class='ecrm-1200'>December 14, 2022</span></div>
    </div>
-<!--l. 5--><p class="indent" >   Text compression&#x00A0;<span class="cite">&#x005B;<a 
-href="#Xmahoney2012data">2</a>,&#x00A0;<a 
-href="#Xwikibooks2018data">5</a>,&#x00A0;<a 
-href="#Xmoffat2002compression">3</a>,&#x00A0;<a 
-href="#Xwiegand2011source">4</a>,&#x00A0;<a 
-href="#Xblelloch2001introduction">1</a>,&#x00A0;<span 
-class="ecbx-1000">?</span>&#x005D;</span> refers to the lossless encoding of statistically
+<!-- l. 5 --><p class='indent'>   Text compression <span class='cite'>[<a href='#Xmahoney2012data'>2</a>, <a href='#Xwikibooks2018data'>5</a>, <a href='#Xmoffat2002compression'>3</a>, <a href='#Xwiegand2011source'>4</a>, <a href='#Xblelloch2001introduction'>1</a>, <span class='ecbx-1000'>?</span>]</span> refers to the lossless encoding of statistically
 correlated data.
 </p>
-   <h3 class="sectionHead"><span class="titlemark">1   </span> <a 
- id="x1-10001"></a><a 
-href="https://vicente-gonzalez-ruiz.github.io/run-length_encoding/" >Run-length encoding</a></h3>
-<!--l. 13--><p class="noindent" >
+   <h3 class='sectionHead' id='-httpsvicentegonzalezruizgithubiorunlengthencodingrunlength-encoding'><span class='titlemark'>1   </span> <a id='x1-10001'></a><a href='https://vicente-gonzalez-ruiz.github.io/run-length_encoding/'>Run-length encoding</a></h3>
+<!-- l. 13 --><p class='noindent'>
 </p>
-   <h3 class="sectionHead"><span class="titlemark">2   </span> <a 
- id="x1-20002"></a><a 
-href="https://vicente-gonzalez-ruiz.github.io/string_compression/" >String compression</a></h3>
-<!--l. 14--><p class="noindent" >
+   <h3 class='sectionHead' id='-httpsvicentegonzalezruizgithubiostringcompressionstring-compression'><span class='titlemark'>2   </span> <a id='x1-20002'></a><a href='https://vicente-gonzalez-ruiz.github.io/string_compression/'>String compression</a></h3>
+<!-- l. 14 --><p class='noindent'>
 </p>
-   <h3 class="sectionHead"><span class="titlemark">3   </span> <a 
- id="x1-30003"></a><a 
-href="https://vicente-gonzalez-ruiz.github.io/symbol_compression/" >Symbol compression</a></h3>
-   <div class="thebibliography">
-   <p class="bibitem" ><span class="biblabel">
- &#x005B;1&#x005D;<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
- id="Xblelloch2001introduction"></a>Guy&#x00A0;E. Blelloch.   <span 
-class="ecti-1000">Algorithms in the real world</span>, chapter <a 
-href="https://www.cs.cmu.edu/afs/cs/project/pscico-guyb/realworld/www/compression.pdf" >Introduction
+   <h3 class='sectionHead' id='-httpsvicentegonzalezruizgithubiosymbolcompressionsymbol-compression'><span class='titlemark'>3   </span> <a id='x1-30003'></a><a href='https://vicente-gonzalez-ruiz.github.io/symbol_compression/'>Symbol compression</a></h3>
+   <div class='thebibliography'>
+   <p class='bibitem'><span class='biblabel'>
+ [1]<span class='bibsp'>   </span></span><a id='Xblelloch2001introduction'></a>Guy E. Blelloch.   <span class='ecti-1000'>Algorithms in the real world</span>, chapter <a href='https://www.cs.cmu.edu/afs/cs/project/pscico-guyb/realworld/www/compression.pdf'>Introduction
    to  data  compression</a>.    Computer  Science  Department,  Carnegie  Mellon
    University, 2001.
    </p>
-   <p class="bibitem" ><span class="biblabel">
- &#x005B;2&#x005D;<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
- id="Xmahoney2012data"></a>Matt Mahoney. <a 
-href="http://mattmahoney.net/dc/dce.html" ><span 
-class="ecti-1000">Data compression explained</span></a>. 2012.
+   <p class='bibitem'><span class='biblabel'>
+ [2]<span class='bibsp'>   </span></span><a id='Xmahoney2012data'></a>Matt Mahoney. <a href='http://mattmahoney.net/dc/dce.html'><span class='ecti-1000'>Data compression explained</span></a>. 2012.
                                                                   
 
                                                                   
    </p>
-   <p class="bibitem" ><span class="biblabel">
- &#x005B;3&#x005D;<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
- id="Xmoffat2002compression"></a>Alistair Mo&#xFB00;at and Andrew Turpin. <a 
-href="https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&q=+Compression+coding+algorithms+moffat+turpin&btnG=" ><span 
-class="ecti-1000">Compression and coding algorithms</span></a>.
-   Springer Science &#x0026; Business Media, 2002.
+   <p class='bibitem'><span class='biblabel'>
+ [3]<span class='bibsp'>   </span></span><a id='Xmoffat2002compression'></a>Alistair Moffat and Andrew Turpin. <a href='https://scholar.google.es/scholar?hl=es&amp;as_sdt=0%2C5&amp;q=+Compression+coding+algorithms+moffat+turpin&amp;btnG='><span class='ecti-1000'>Compression and coding algorithms</span></a>.
+   Springer Science &amp; Business Media, 2002.
    </p>
-   <p class="bibitem" ><span class="biblabel">
- &#x005B;4&#x005D;<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
- id="Xwiegand2011source"></a>Thomas  Wiegand,  Heiko  Schwarz,  et&#x00A0;al.    <a 
-href="https://web.stanford.edu/class/ee398a/BookWiegandSchwarz.pdf" >Source  coding:  Part  I  of
-   fundamentals of source and video coding</a>. <span 
-class="ecti-1000">Foundations and Trends</span><span 
-class="ecti-1000">&#xAE; in Signal</span>
-   <span 
-class="ecti-1000">Processing</span>, 4&#x0028;1&#x2013;2&#x0029;:1&#x2013;222, 2011.
+   <p class='bibitem'><span class='biblabel'>
+ [4]<span class='bibsp'>   </span></span><a id='Xwiegand2011source'></a>Thomas  Wiegand,  Heiko  Schwarz,  et al.    <a href='https://web.stanford.edu/class/ee398a/BookWiegandSchwarz.pdf'>Source  coding:  Part  I  of
+   fundamentals of source and video coding</a>. <span class='ecti-1000'>Foundations and Trends® in Signal
+   </span><span class='ecti-1000'>Processing</span>, 4(1–2):1–222, 2011.
    </p>
-   <p class="bibitem" ><span class="biblabel">
- &#x005B;5&#x005D;<span class="bibsp">&#x00A0;&#x00A0;&#x00A0;</span></span><a 
- id="Xwikibooks2018data"></a>Wikibooks.org. <a 
-href="https://en.wikibooks.org/wiki/Data_Compression" ><span 
-class="ecti-1000">Data compression</span></a>. 2018.
+   <p class='bibitem'><span class='biblabel'>
+ [5]<span class='bibsp'>   </span></span><a id='Xwikibooks2018data'></a>Wikibooks.org. <a href='https://en.wikibooks.org/wiki/Data_Compression'><span class='ecti-1000'>Data compression</span></a>. 2018.
 </p>
    </div>
-<a 
- id="Q1-1-4"></a>
+<p id='references'><a id='Q1-1-4'></a>
     
-</body></html> 
-
-                                                                  
-
-
+</p></body> 
+</html>
